@@ -3,7 +3,7 @@ Tutorial
 ========
 
 
-First, `install *behave*`.
+First, install *behave*.
 
 首先，安装behave。
 
@@ -117,6 +117,8 @@ A feature file has a natural language format describing a feature or
 part of a feature with representative examples of expected outcomes.
 They're plain-text (encoded in UTF-8) and look something like:
 
+一个功能文件有一种自然语言格式用具有代表性的期望结果的列子描述一个功能或者一个功能的一部分
+
 ```
   Feature: Fight or flight
     In order to increase the ninja survival rate,
@@ -137,6 +139,8 @@ They're plain-text (encoded in UTF-8) and look something like:
 The "Given", "When" and "Then" parts of this prose form the actual steps
 that will be taken by *behave* in testing your system. These map to `Python
 step implementations`_. As a general guide:
+
+"Given","When",和"Then"
 
 **Given** we *put the system in a known state* before the
 user (or external system) starts interacting with the system (in the When
